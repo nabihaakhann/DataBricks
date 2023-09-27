@@ -34,4 +34,9 @@ df1.write.mode("overwrite").option("path","dbfs:/mnt/saunextadls/raw/output/nabi
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select count(*) from json.bronze
+
+# COMMAND ----------
+
 
